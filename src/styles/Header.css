@@ -1,12 +1,30 @@
-.header {
-    background: #13d3f0;
-    height: 200px;
+/*Header Styles*/
+html {
+    background-color: cornflowerblue;
 }
 
-.header h1 {
-    margin: 0;
-    padding-top: 75px;
+.header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(54, 105, 2);
+    padding: 55px;
+    margin: 5px;
+    background-color: rgb(100, 198, 237);
+    border: solid;
+    border-radius: 5px;
+}
+
+#siteTitle {
     text-align: center;
-    color: white;
-    font-size: 3rem;
-  }
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+#siteCaption {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+
+}

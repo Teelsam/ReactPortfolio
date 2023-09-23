@@ -1,0 +1,17 @@
+/*Navbar Styles*/
+.navbar {
+    background-color: darkslategrey;
+    text-align: center;
+    height: auto;
+
+
+}
+
+.navbar a {
+    font-size: larger;
+    color: aliceblue;
+    text-decoration: underline;
+    padding: 1px;
+    margin: 5px;
+
+}
