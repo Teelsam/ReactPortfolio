@@ -5,6 +5,7 @@ import Bio from "./components/Bio";
 import Work from "./components/Work";
 import Resume from "./components/Resume";
 import ContactInfo from "./components/ContactInfo";
+import Footer from "./components/Footer";
 
 
 
@@ -30,6 +31,7 @@ function App() {
       <Header />
       <Navbar setNewItem={setNewItem} />
       {displayPage()}
+      <Footer />
     </div>
   );
 }
