@@ -1,6 +1,6 @@
 import React from 'react';
 import '../styles/Bio.css';
-import me from '../../images/meBearded.jpg'
+import me from '../images/meBearded.jpg'
 
 const styles = {
     bioStyles: {

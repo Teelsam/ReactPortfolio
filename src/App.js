@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import Navbar from "./components/Navbar";
 import Header from "./components/Header";
 import Bio from "./components/Bio";
@@ -8,15 +8,28 @@ import ContactInfo from "./components/ContactInfo";
 
 
 
+
 function App() {
+  const [newItem, setNewItem] = useState("Bio");
+  function displayPage() {
+    if (newItem === "Bio") {
+      return <Bio />
+    }
+    if (newItem === "Work") {
+      return <Work />
+    }
+    if (newItem === "Resume") {
+      return <Resume />
+    }
+    if (newItem === "ContactInfo") {
+      return <ContactInfo />
+    }
+  }
   return (
     <div>
-      <Navbar />
       <Header />
-      <Bio />
-      <Work />
-      <Resume />
-      <ContactInfo />
+      <Navbar setNewItem={setNewItem} />
+      {displayPage()}
     </div>
   );
 }

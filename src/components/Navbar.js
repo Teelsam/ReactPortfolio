@@ -6,13 +6,14 @@ const styles = {
     justifyContent: 'flex-end',
   },
 };
-function Navbar() {
+function Navbar(props) {
+  const { setNewItem } = props;
   return (
     <nav style={styles.navbarStyle} className="navbar">
-      <a href="/">About Me</a>
-      <a href="/">Work</a>
-      <a hred="/">Resume</a>
-      <a hred="/">Contact Info</a>
+      <a href="#" onClick={() => setNewItem("Bio")}>About Me</a>
+      <a href="#" onClick={() => setNewItem("Work")}>Work</a>
+      <a hred="#" onClick={() => setNewItem("Resume")}>Resume</a>
+      <a hred="#" onClick={() => setNewItem("ContactInfo")}>Contact Info</a>
     </nav>
   );
 }
