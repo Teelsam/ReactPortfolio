@@ -1,0 +1,35 @@
+/*Footer Styles*/
+
+.footerSection {
+    display: flex;
+    background-color: cadetblue;
+    position: auto;
+    text-align: center;
+    align-content: center;
+}
+
+#footerCaption {
+    display: flex;
+    position: relative;
+    left: 550px;
+    text-align: center;
+    align-content: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+#myGit {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
+
+#myLinked {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+}
