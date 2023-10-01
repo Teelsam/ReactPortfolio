@@ -5,14 +5,16 @@ html {
 
 .resumeSection {
     align-content: center;
+
 }
 
 #resumeImg {
-    display: flex;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     height: 500px;
-    align-content: center;
-    position: absolute;
-    left: 450px;
+
+
 }
 
 #resumeCaption {

@@ -6,16 +6,19 @@
     position: auto;
     text-align: center;
     align-content: center;
+    margin-top: -50px;
 }
 
 #footerCaption {
     display: flex;
     position: relative;
     left: 550px;
+    top: 25px;
     text-align: center;
     align-content: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bolder;
+    color: antiquewhite;
 }
 
 #myGit {
@@ -25,6 +28,13 @@
     padding: 5px;
     margin: 5px;
 }
+
+#gitCat {
+    max-width: 50%;
+    height: auto;
+
+}
+
 
 #myLinked {
     font-family: Arial, Helvetica, sans-serif;
