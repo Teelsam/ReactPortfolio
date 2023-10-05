@@ -5,6 +5,7 @@ import '../styles/ContactInfo.css';
 function ContactInfo() {
     const [email, setEmail] = useState('');
     const [userName, setUserName] = useState('');
+    const [message, setMessage] = useState('');
     const [errorMessage, setErrorMessage] = useState('');
 
     const handleInputChange = (e) => {
@@ -24,11 +25,15 @@ function ContactInfo() {
         if (!validateEmail(email) || !userName) {
             setErrorMessage('Email or name invalid');
             return;
+        } else if (!message) {
+            setErrorMessage('Please type a message :)');
         }
+        alert(`Hello ${userName}`);
+        setEmail('');
+        setUserName('');
+        setMessage('');
+        setErrorMessage('');
     }
-    alert(`Hello ${userName}`);
-    setEmail('');
-    setUserName('');
 
     return (
         <section className='formSection'>

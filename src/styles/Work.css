@@ -1,0 +1,12 @@
+/*Work Styles*/
+
+#employeeTracker {
+    display: flex;
+    align-content: center;
+    width: 600px;
+    height: auto;
+}
+
+#workDayScheduler {}
+
+#SVGMaker {}

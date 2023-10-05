@@ -31,7 +31,7 @@
 
 #gitCat {
     max-width: 50%;
-    height: auto;
+    height:min-content;
 
 }
 
