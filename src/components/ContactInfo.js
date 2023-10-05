@@ -2,7 +2,10 @@ import React, { useState } from 'react';
 import coffeeImage from '../images/ContactInfoImage.jpg';
 import { validateEmail } from '../utils/helpers';
 import '../styles/ContactInfo.css';
+//imports pieces to be used in the function and returned html
+
 function ContactInfo() {
+    //here States are created for user data which is error checked and returns html elements
     const [email, setEmail] = useState('');
     const [userName, setUserName] = useState('');
     const [message, setMessage] = useState('');

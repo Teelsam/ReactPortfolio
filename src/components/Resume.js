@@ -1,9 +1,8 @@
 import React from 'react';
 import resume from '../images/ResumeWebDev.png';
 import '../styles/Resume.css';
-
-function Resume() {
-
+//imports for functionality
+function Resume() {// returns html for resume link and small text elements
     return (
         <div className='resumeSection'>
             <p id="resumeCaption">Click on my resume to see it in full!  </p>

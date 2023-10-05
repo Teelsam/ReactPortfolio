@@ -1,5 +1,4 @@
 /*Bio Styles*/
-
 .bioSection {
     display: block;
     align-content: center;
@@ -19,11 +18,8 @@
     font-size: 35px;
     display: auto;
     border-radius: 10px;
-    /* position: absolute; */
     left: 300px;
     top: 198px;
     height: 289px;
     padding-top: 9px;
-
-
 }

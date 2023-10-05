@@ -1,7 +1,7 @@
 import React from 'react';
 import '../styles/Navbar.css';
-
-function Navbar(props) {
+//imports for functionality
+function Navbar(props) {// sets up site navigation through clickable text
   const { setNewItem } = props;
   return (
     <nav className="navbar">

@@ -5,9 +5,9 @@ import SVGMaker from "../images/SVGMaker.png";
 import CheatSheetGen from "../images/CheatSheetGen.png";
 import EconORM from '../images/EcomORM.png';
 import ExpressjsNoteTaker from '../images/ExpressjsNoteTaker.png';
+//imports for functionality
 
-
-function Work() {
+function Work() {//linked images to my projects are returned as html elements
     return (
         <div>
             <section id="employeeTracker">

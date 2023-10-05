@@ -1,9 +1,9 @@
-import React from 'react';
-import '../styles/Bio.css';
-import me from '../images/meBearded.jpg'
+import React from 'react';//imports react functionality
+import '../styles/Bio.css';//imports css designs
+import me from '../images/meBearded.jpg'//imports image of me
 
 
-function Bio() {
+function Bio() { //function returns the html of my bio section of an image and a caption
     return (
         <section className="bioSection">
             <img id='imageMe' src={me} alt='picture of me'></img>

@@ -6,13 +6,13 @@ import Work from "./components/Work";
 import Resume from "./components/Resume";
 import ContactInfo from "./components/ContactInfo";
 import Footer from "./components/Footer";
+//imports for functionality
 
 
 
-
-function App() {
+function App() {// this function forms the master plan of how React will use component files.
   const [newItem, setNewItem] = useState("Bio");
-  function displayPage() {
+  function displayPage() {//checks state of newItem to decided what component to load.
     if (newItem === "Bio") {
       return <Bio />
     }
