@@ -1,20 +1,22 @@
 /*Contact Info Styles*/
 
-
-#contactInfoCaption {}
-
-#coffeeImage {
-    height: 50%;
-
-
-
+.formSection {
+    display: flex;
 }
 
-.form {}
+#contactInfoCaption {
+    display: block;
+    margin-top: 40px;
+    margin-left: 40px;
+}
 
-#nameSection {}
+.form {
+    margin-left: 40px;
+    margin-top: 40px;
+}
 
-
-#emailSection {}
-
-#Btn {}
+.coffeeImageSection {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}

@@ -60,16 +60,19 @@ function ContactInfo() {
                 </section>
                 <section id='msgSection'>
                     <label>Message: </label>
-                    <textarea rows="2" colums="20"></textarea>
+                    <textarea rows="4" colums="40"></textarea>
                 </section>
-                <button type="button" onClick={handleFormSubmit} id="Btn">Submit</button>
+                <button type="button" onClick={handleFormSubmit} id="btn">Submit</button>
             </form>
             {errorMessage && (
                 <div>
                     <p className='errorText'>{errorMessage}</p>
                 </div>
             )}
-            <img src={coffeeImage} alt='coffee and notebook' id='coffeeImage'></img>
+            <section className='coffeeImageSection'>
+                <img src={coffeeImage} alt='coffee and notebook' id='coffeeImage'></img>
+
+            </section>
         </section>
     )
 }

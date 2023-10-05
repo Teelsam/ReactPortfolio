@@ -3,7 +3,7 @@
 .footerSection {
     display: flex;
     background-color: cadetblue;
-    position: auto;
+    position:relative;
     text-align: center;
     align-content: center;
     margin-top: -50px;
