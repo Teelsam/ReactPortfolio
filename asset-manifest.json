@@ -1,17 +1,24 @@
 {
   "files": {
-    "main.css": "/static/css/main.a2931c0b.css",
-    "main.js": "/static/js/main.0b886472.js",
+    "main.css": "/static/css/main.ead90b2c.css",
+    "main.js": "/static/js/main.fab011e9.js",
     "static/js/787.bc7d429a.chunk.js": "/static/js/787.bc7d429a.chunk.js",
     "static/media/meBearded.jpg": "/static/media/meBearded.74927a0fa3554a39bdd5.jpg",
+    "static/media/EcomORM.png": "/static/media/EcomORM.d751244182a91405421d.png",
+    "static/media/SVGMaker.png": "/static/media/SVGMaker.64bcdca4ebb7abd93e53.png",
+    "static/media/EmployeeManager.png": "/static/media/EmployeeManager.9cd4fd87b50f110465aa.png",
+    "static/media/CheatSheetGen.png": "/static/media/CheatSheetGen.74e6343031cc67b49778.png",
+    "static/media/ContactInfoImage.jpg": "/static/media/ContactInfoImage.625165d46c48bcc0173f.jpg",
     "static/media/ResumeWebDev.png": "/static/media/ResumeWebDev.9019867897836072e11f.png",
+    "static/media/WorkDayScheduler.png": "/static/media/WorkDayScheduler.d2ea8b3f6d1be57be7ef.png",
+    "static/media/ExpressjsNoteTaker.png": "/static/media/ExpressjsNoteTaker.ce6bc8fa1a55345b1935.png",
     "index.html": "/index.html",
-    "main.a2931c0b.css.map": "/static/css/main.a2931c0b.css.map",
-    "main.0b886472.js.map": "/static/js/main.0b886472.js.map",
+    "main.ead90b2c.css.map": "/static/css/main.ead90b2c.css.map",
+    "main.fab011e9.js.map": "/static/js/main.fab011e9.js.map",
     "787.bc7d429a.chunk.js.map": "/static/js/787.bc7d429a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2931c0b.css",
-    "static/js/main.0b886472.js"
+    "static/css/main.ead90b2c.css",
+    "static/js/main.fab011e9.js"
   ]
 }
