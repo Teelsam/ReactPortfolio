@@ -1,25 +1,72 @@
-import React from 'react';
+import React, { useState } from 'react';
 import coffeeImage from '../images/ContactInfoImage.jpg';
-import '../styles/ContactInfo.css'; 
+import { validateEmail } from '../utils/helpers';
+import '../styles/ContactInfo.css';
 function ContactInfo() {
+    const [email, setEmail] = useState('');
+    const [userName, setUserName] = useState('');
+    const [errorMessage, setErrorMessage] = useState('');
+
+    const handleInputChange = (e) => {
+        const { target } = e;
+        const inputType = target.name;
+        const inputValue = target.value;
+
+        if (inputType === 'email') {
+            setEmail(inputValue);
+        } else if (inputType === 'userName') {
+            setUserName(inputValue);
+        } else { }
+    };
+    const handleFormSubmit = (e) => {
+        e.preventDefault();
+
+        if (!validateEmail(email) || !userName) {
+            setErrorMessage('Email or name invalid');
+            return;
+        }
+    }
+    alert(`Hello ${userName}`);
+    setEmail('');
+    setUserName('');
+
     return (
         <section className='formSection'>
             <p id="contactInfoCaption">Please Enter your name and email for visitor records.</p>
             <form className='form'>
                 <section id='nameSection'>
-                    <label>Name</label>
-                    <input />
+                    <label>Name: </label>
+                    <input
+                        value={userName}
+                        name="userName"
+                        onChange={handleInputChange}
+                        type="text"
+                    />
                 </section>
                 <section id='emailSection'>
-                    <label>Email</label>
-                    <input />
+                    <label>Email: </label>
+                    <input
+                        value={email}
+                        name="email"
+                        onChange={handleInputChange}
+                        type="email"
+
+                    />
                 </section>
-                <button id="Btn">Submit</button>
+                <section id='msgSection'>
+                    <label>Message: </label>
+                    <textarea rows="2" colums="20"></textarea>
+                </section>
+                <button type="button" onClick={handleFormSubmit} id="Btn">Submit</button>
             </form>
+            {errorMessage && (
+                <div>
+                    <p className='errorText'>{errorMessage}</p>
+                </div>
+            )}
             <img src={coffeeImage} alt='coffee and notebook' id='coffeeImage'></img>
         </section>
     )
 }
 export default ContactInfo;
 
-//checks that email is fitting email format, needs a useRef(?) or useState to alert that its a success 
