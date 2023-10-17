@@ -5,6 +5,7 @@ import SVGMaker from "../images/SVGMaker.png";
 import CheatSheetGen from "../images/CheatSheetGen.png";
 import EconORM from '../images/EcomORM.png';
 import ExpressjsNoteTaker from '../images/ExpressjsNoteTaker.png';
+import CozySpaces from "../images/CozySpaces.png";
 //imports for functionality
 
 function Work() {//linked images to my projects are returned as html elements
@@ -26,6 +27,10 @@ function Work() {//linked images to my projects are returned as html elements
                 <a href="https://github.com/Teelsam/CheatSheetGen"><img src={CheatSheetGen} alt="homepage of cheatsheet site"></img></a>
             </section> <section id="ExpressjsNoteTaker">
                 <a href="https://github.com/Teelsam/ExpressJSNoteTaker"><img src={ExpressjsNoteTaker} alt="homepage of note taker site"></img></a>
+            </section>
+
+            <section>
+                <a href="https://protected-sierra-59308-f3833016945c.herokuapp.com/"><img src={CozySpaces} alt="home page of site"></img></a>
             </section>
         </div>
     )
